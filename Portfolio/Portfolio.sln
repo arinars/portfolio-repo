@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{2859F54E-67F1-4265-BF8E-1FF544735867}"
+	ProjectSection(SolutionItems) = preProject
+		References\EnumHelper.dll = References\EnumHelper.dll
+		References\HtmlAgilityPack.dll = References\HtmlAgilityPack.dll
+		References\Interop.ATLCRXLib.dll = References\Interop.ATLCRXLib.dll
+		References\Interop.ATLDOCRUZER_3_2Lib.dll = References\Interop.ATLDOCRUZER_3_2Lib.dll
+		References\Newtonsoft.Json.dll = References\Newtonsoft.Json.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemon.Lib.Docruzer.Tests", "Lemon.Lib.Docruzer.Tests\Lemon.Lib.Docruzer.Tests.csproj", "{A684DCA4-D911-4A41-A23F-9B070020CF81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemon.Lib.Docruzer", "Lemon.Lib.Docruzer\Lemon.Lib.Docruzer.csproj", "{5DB814C9-3813-4986-A5B3-F3EF09800DA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A684DCA4-D911-4A41-A23F-9B070020CF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A684DCA4-D911-4A41-A23F-9B070020CF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A684DCA4-D911-4A41-A23F-9B070020CF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A684DCA4-D911-4A41-A23F-9B070020CF81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB814C9-3813-4986-A5B3-F3EF09800DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB814C9-3813-4986-A5B3-F3EF09800DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB814C9-3813-4986-A5B3-F3EF09800DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB814C9-3813-4986-A5B3-F3EF09800DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
